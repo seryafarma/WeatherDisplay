@@ -1,0 +1,7 @@
+@startuml state_diagram_weather
+[*] --> Initializing
+Initializing -> Refresh : EvStart
+Refresh -> Error : EvError
+Refresh -> Display : EvDataCollected
+Display --> Refresh : EvTimeElapsed
+@enduml
