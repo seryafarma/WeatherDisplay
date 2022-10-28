@@ -1,5 +1,7 @@
-# WeatherDisplay
-Let's display the current weather and how is the forecast for the next few days?
+# WeatherDisplay ⛅
+Let's display the current weather and how is the forecast for the next few days? Yeah it is mostly cloudy around here.
+
+![github_state_diagram](https://github.com/seryafarma/WeatherDisplay/blob/main/display.jpg)
 
 ## Hardware
 The hardware utilizes a simple Wemos D1 board and 4x8x8 dot matrix module. It is simply using one SPI connection from the Wemos D1 to the module. The board needs to be connected to the internet to fetch the data.
