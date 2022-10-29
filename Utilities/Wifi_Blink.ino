@@ -35,7 +35,7 @@ void connectWifi();
 //------------------------------------------------------------------------------
 void setup()
 {
-    Serial.begin(115200);
+    Serial.begin(9600);
     delay(1500);
     connectWifi();
     pinMode(LED_BUILTIN, OUTPUT);
