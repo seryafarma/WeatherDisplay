@@ -60,7 +60,7 @@ void parse_json(char *json);
 //------------------------------------------------------------------------------
 void setup()
 {
-    Serial.begin(115200);
+    Serial.begin(9600);
     parse_json(json);
     P.begin();
 }
